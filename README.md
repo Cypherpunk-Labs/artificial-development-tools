@@ -7,31 +7,35 @@ For scenarios where a human needs to troubleshoot a failing process, Toolchains 
 
 ## What type of capabilities have we seen?:
 
-- Prompt Inline Code Completion
-- IDE intellisense code suggestion/completion
-- KVM based computer use
-- Executes Code
-- Iterative Self correction
-- Sandboxes
-- Git Ops (Clone/forks/Branches > merge requests/PR)
+- WWW: Prompt Inline Code Completion
+- AI-IDE: Intellisense code completion
+- MCP: https://modelcontextprotocol.io/clients 
+- KVM: based computer use
+- EC: Executes Code
+- ISC: Iterative Self correction
+- SB: Sandboxes
+- GO: Git Ops (Clone/forks/Branches > merge requests/PR)
 
 ## Capability Evaluation 
 
-| TBD | TBD |	OSS |	URL |	Notes |
-|---  |---  |---  |---  |---  |
-| £$€	| £$€	| £$€ |	£$€	| Commercial Tools |
-| Y | ? | ? | https://github.com/features/copilot | |
-| ? | ? | ? | https://www.cursor.com/ | |
-| ? | ? | ? | https://manus.im/ | |
-| ? | ? | ? | https://docs.anthropic.com/en/docs/agents-and-tools/computer-use | |
-| ? | ? | ? | https://openai.com/index/computer-using-agent/ | |
-| ? | ? | ? | https://ai.google/get-started/gemini-ecosystem/#BuildWithGemini | |
-| ? | ? | ? | https://www.crewai.com/ | |
-| ? | ? | ? | https://www.bitte.ai/ | |
-| OSS	| OSS |	OSS |	OSS | Open Source |
-| ? | ? | Y | https://github.com/nikmcfly/ANUS | inspired by manus |
-| ? | ? | Y | https://github.com/All-Hands-AI/OpenHands | |
-| ? | ? | ?Y | https://github.com/OpenInterpreter/open-interpreter | |
+| WWW | AI-IDE | MCP | KVM | EC | ISC | SB | GO |	OSS |	URL |	Notes |
+|---  |---     |---  |--- |--- |---  |---  |---  |---  |---   |---  |
+| £$€| £$€| £$€| £$€| £$€| £$€	| £$€	| £$€ |	£$€	| Commercial Tools |
+| Y | Y | N | N | ? | ? | N | N | N | https://github.com/features/copilot | |
+| ? | Y | Y | N | Y | Y | Y | N | N | https://www.cursor.com/ | |
+| Y | ? | ? | Y | Y | Y | Y | Y | N | https://manus.im/ | |
+| Y | N | Y | N | Y | Y | Y | N | N | https://docs.anthropic.com/en/docs/agents-and-tools/computer-use | |
+| N | Y | Y | N | Y | Y | N | N | N | https://codeium.com/windsurf | Can select a few models |
+| Y | ? | ? | Y | ? | ? | ? | N | N | https://openai.com/index/computer-using-agent/ | |
+| Y | N | N | N | N | N | N | N | N | https://ai.google/get-started/gemini-ecosystem/#BuildWithGemini | |
+| ? | ? | ? | ? | ? | ? | ? | ? | ? | https://www.crewai.com/ | |
+| ? | ? | ? | ? | ? | ? | ? | N | ? | https://www.bitte.ai/ | |
+| OSS | OSS| OSS|OSS |OSS| OSS | OSS | OSS | OSS| OSS| OSS	| OSS |	OSS |	OSS | Open Source |
+| N | Y | ? | ? | ? | ? | ? | N | Y | https://github.com/nikmcfly/ANUS | inspired by manus |
+| N | Y | Y | N | ? | ? | ? | N | Y | https://cline.bot/ | uses MCP |
+| N | Y | Y | N | N | N | N | N | Y | https://www.continue.dev/ | |
+| Y | N | N | N | Y | Y | Y | P | Y | https://github.com/All-Hands-AI/OpenHands | can choose model, runs in jupyter |
+| N | N | N | Y | Y | Y | N | N | Y | https://github.com/OpenInterpreter/open-interpreter | NLM to Computer Use |
 
 ## Other efforts to list/assess tools
 
@@ -42,6 +46,7 @@ For scenarios where a human needs to troubleshoot a failing process, Toolchains 
 ## Benchmarking tools
 
 - https://github.com/xlang-ai/OSWorld
+- https://www.swebench.com/
 
 ## Problems 
 
