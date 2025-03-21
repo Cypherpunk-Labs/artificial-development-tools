@@ -5,7 +5,7 @@ Ideally one would continue to use Gitops SDLC practices, create feature requests
 These Agents should have the capability to ascertain requirements and constraints, Generate the code, Create a test environment, Execute and test the code, Iterate until the feature compiles executes and passes tests.
 For scenarios where a human needs to troubleshoot a failing process, Toolchains integrated into the IDE are ideal so if cooperating with AI to pair program then the ability to keep focus and get feedback within the IDE are key.
 
-some useful capabilities described in this article https://www.builder.io/blog/cursor-vs-github-copilot and this directory https://cursor.directory/mcp
+some useful capabilities described in this article https://www.builder.io/blog/cursor-vs-github-copilot and this directory https://cursor.directory/mcp has interesting modules, https://n8n.io/ is a workflow tool that uses MCP.
 
 ## What type of capabilities have we seen?:
 
