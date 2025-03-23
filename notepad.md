@@ -115,3 +115,8 @@ In summary, while a pure "AI execution-only" model is rare, tools like Judge0 an
 - Nv P40 347GBs / DSR1 7B 3.5 = 99TPS
 - Nv P40 347GBs / DSR1 70b 35 = 9TPS
 - Nv H100 3350GBs / DSR1 70b = 95TPS
+
+# API aggregation/access services
+
+- openrouter.ai
+- 
