@@ -120,3 +120,9 @@ In summary, while a pure "AI execution-only" model is rare, tools like Judge0 an
 
 - openrouter.ai
 - 
+
+# AI-IDE Prompting 
+
+- https://github.com/nickbaumann98/cline_docs
+- https://github.com/instructa/ai-prompts
+- https://github.com/Tjeker61/Cline-custom-prompt
