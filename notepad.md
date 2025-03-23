@@ -84,3 +84,34 @@ AI is about understanding and processing information. Even "execution" often inv
 Security:
 Running arbitrary code is inherently risky. Any system must prioritize security through sandboxing and robust access controls.   
 In summary, while a pure "AI execution-only" model is rare, tools like Judge0 and frameworks that help with AI agents, provide strong foundations for secure and controlled code execution within AI-driven workflows.
+
+
+# Model costs
+
+## Claude
+
+- input per million $3
+- output per million $15
+
+  
+# Tokens Per Second (TPS)
+
+## Estimate model size
+
+- FP64(NA) 8 bytes
+- FP32(std) 4 bytes
+- int8(Q8) 1 bytes
+- int4(Q4) 0.5 bytes
+
+- Model size (GB) = X ( X Billion Parameters x bytes )
+- 15b model with standard fp32 15 * 4 = 60gb
+
+## Rough formulae
+
+- GPU Ram speed / Model size = TPS
+
+- Apple M2 100GBs / Deepseek R1 7B Q4 3.5(4.7) = 28TPS 1680TPM 100800TPH
+- Apple M2 100GBs / Deepseek R1 70B Q4 35(43) = 2TPS
+- Nv P40 347GBs / DSR1 7B 3.5 = 99TPS
+- Nv P40 347GBs / DSR1 70b 35 = 9TPS
+- Nv H100 3350GBs / DSR1 70b = 95TPS
